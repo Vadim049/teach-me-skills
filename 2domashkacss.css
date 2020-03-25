@@ -1,0 +1,192 @@
+.my-flex-block-blue{
+
+    width: 375px;
+    height: 200px;
+    background: blue;
+    color: white;
+
+
+}
+.my-flex-container-blue{
+    display: flex;
+    justify-content: space-around;
+
+}
+.my-flex-container{
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+.my-flex-block-purple{
+
+    width: 240px;
+    height: 200px;
+    background: purple;
+    color: white;
+    margin-right:5px;
+}
+
+.my-flex-container-purple{
+    display: flex;
+    justify-content: flex-start;
+    border-left: 2px solid #ccc; /* Параметры линии */
+    margin-left: 0px; /* Отступ слева */
+    padding-left: 10px; /* Расстояние от линии до текста */
+    flex-wrap: wrap;
+
+
+
+
+}
+
+
+.my-flex-block-red{
+
+    width: 375px;
+    height: 200px;
+    background: red;
+    color: white;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+my-flex-container-red{
+    display:flex;
+    flex-direction: column;
+
+
+}
+
+
+.my-flex-block-yellow{
+
+    width: 363px;
+    height: 400px;
+    background: yellow;
+    color: white;
+    margin-right: 5px;
+
+}
+
+.my-flex-container-yellow{
+    display:flex;
+
+
+
+}
+
+.my-flex-block-green{
+
+
+    width: 375px;
+    height: 200px;
+    background: lightseagreen;
+    color: white;
+    margin-right: 5px;
+}
+
+.my-flex-container-green{
+    display:flex;
+    justify-content: flex-end;
+   margin-left: 1px;
+    border-left: 2px solid #ccc; /* Параметры линии */
+    padding-left: 2px; /* Расстояние от линии до текста */
+
+}
+
+
+
+
+.my-flex-block-green2{
+
+
+    width: 375px;
+    height: 200px;
+    background: lightseagreen;
+    color: white;
+    margin-right: 5px;
+
+
+}
+
+.my-flex-container-green2{
+    display:flex;
+    justify-content: flex-end;
+
+
+    border-left: 2px solid #ccc; /* Параметры линии */
+    padding-left: 2px; /* Расстояние от линии до текста */
+
+
+
+
+}
+
+
+
+.my-flex-block-green3{
+    width: 365px;
+    height: 200px;
+    background: lightseagreen;
+    color: white;
+    margin-right: 5px;
+}
+
+.my-flex-container-green3{
+    display:flex;
+    flex-direction: column;
+    margin-left: 5px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
