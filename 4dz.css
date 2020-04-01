@@ -1,0 +1,158 @@
+.grid-container1{
+    display:grid;
+    height:140px;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: 2px solid black;
+
+}
+.flowers-shop{
+    font-size:60px;
+    text-align:center;
+    padding-top: 60px;
+}
+.phone{
+    text-align: center;
+
+
+
+}
+.need-help{
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.registration{
+    text-align: center;
+
+
+}
+.search{
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    height: 50px;
+    border-bottom: 2px solid black;
+    text-align: center;
+
+}
+
+
+.grid-container3{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 40px;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+
+
+.main-container{
+    display: grid;
+    height:400px;
+    width:1000px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.main1{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+
+}
+
+.main2{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 5px;
+}
+
+.a{
+margin-top: 5px;
+}
+
+.b{
+ font-weight: bold;
+ font-size:25px;
+}
+
+.c{
+margin-top:10px;
+}
+
+.main3{
+    display:grid;
+    margin-top: 5px;
+}
+
+.main4{
+    display: grid;
+    text-align: center;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+
+}
+
+.central-text{
+    font-style:oblique;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 35px;
+    border-bottom: 2px solid black;
+}
+
+.central-text2{
+    padding-top: 35px;
+    font-style:oblique;
+    border-bottom: 2px solid black;
+}
+.central-text3{
+    padding-top: 35px;
+    font-style:oblique;
+}
+
+
+.inscription{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2,1fr);
+    width:300px;
+}
+.fp{
+    margin-top: 15px;
+    font-size:20px;
+}
+
+
+.main-flowers-1{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 1fr;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 1fr;
+    border-top: 2px solid black;
+    padding-top: 25px;
+}
+
+.text{
+    padding-top: 5px;
+}
+
+.text-head{
+    font-weight: bold;
+    padding-bottom: 15px;
+}
