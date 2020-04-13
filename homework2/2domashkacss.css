@@ -15,7 +15,7 @@
 
 
 
-my-flex-container-red{
+.my-flex-container-red{
     display:flex;
     flex-direction: column;
 
