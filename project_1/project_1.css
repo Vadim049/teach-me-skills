@@ -1,0 +1,436 @@
+
+.container{
+
+    display: flex;
+    justify-content: space-between ;
+    padding-right: 100px;
+    background-color: gainsboro;
+    font-family:"Century Gothic";
+
+
+}
+.navigation{
+    display:flex;
+    list-style-type: none;
+    justify-content:space-between;
+    width: 500px;
+}
+
+.triangle{
+    width: 30px;
+    height: 30px;
+    padding-left: 100px;
+    padding-top: 5px;
+}
+
+.Home{
+    color:lightseagreen;
+}
+.container-2{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align:left;
+    padding-top: 150px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background-color: gainsboro;
+    font-family:"Century Gothic";
+
+}
+span{
+    white-space: pre-wrap;
+}
+h1{
+    width:300px;
+}
+.contact-button{
+
+    width: 100px;
+    height: 40px;
+    background-color: lightseagreen;
+    border:lightseagreen;
+    position: absolute;
+    right: 400px;
+    top: 350px;
+    color: white;
+    font-family:"Century Gothic";
+}
+
+.container-3{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    font-family:"Century Gothic";
+
+}
+.sign{
+    width: 300px;
+    height: 150px;
+}
+
+.container-4{
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: gainsboro;
+    font-family:"Century Gothic";
+
+
+}
+
+
+
+
+.grid-container-line {
+    display: grid;
+    height: 5px;
+    width: 550px;
+    grid-template-areas:
+            "line line line silver ";
+}
+
+.block1 {
+    grid-area: line;
+    background-color: lightseagreen;
+}
+
+.block2 {
+    grid-area: silver;
+    background-color: silver;
+
+}
+
+
+
+
+.grid-container-line-2 {
+    display: grid;
+    height: 5px;
+    width: 550px;
+    grid-template-areas:
+            "line line line line line line line silver  ";
+}
+
+
+
+.grid-container-line-3 {
+    display: grid;
+    height: 5px;
+    width: 550px;
+    grid-template-areas:
+            "line line line line silver silver  ";
+}
+
+.container-5{
+    display: flex;
+    padding-left:100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: lightseagreen;
+    font-family:"Century Gothic";
+}
+
+.bag{
+
+    width:50px;
+    height:50px;
+}
+.flex-bag{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5px;
+
+}
+.inscription-2{
+    color: white;
+}
+.inscription{
+    color: white;
+}
+
+.watch{
+
+    width:50px;
+    height:50px;
+    padding-left: 300px;
+}
+
+.flex-watch{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5px;
+
+}
+
+.star{
+
+    width:50px;
+    height:50px;
+    padding-left: 300px;
+}
+
+.flex-star{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5px;
+
+}
+
+.heart{
+
+    width:50px;
+    height:50px;
+    padding-left: 300px;
+}
+
+.flex-heart{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5px;
+
+}
+
+.grid-container-chess{
+    display:grid;
+    height: 600px;
+    grid-template-columns: repeat(4,1fr) ;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.grey{
+    background-color: grey;
+
+}
+
+.silver{
+    background-color:silver;
+}
+.black{
+    background-color: black;
+
+
+}
+.eye{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+   left: 680px;
+    top: 2080px;
+
+}
+
+.load-more-work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:"Century Gothic";
+    height: 90px;
+    background-color: gainsboro;
+
+}
+
+.container-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:"Century Gothic";
+    padding-top: 50px;
+}
+
+.container-7 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+.container-8{
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:1fr 1fr ;
+    margin-top: 100px;
+    text-align: center;
+    font-family:"Century Gothic";
+    background-color: gainsboro;
+    padding-top: 50px;
+    padding-left: 100px;
+
+}
+.diamond{
+    padding-top: 5px;
+}
+
+.round{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: absolute;
+    background-color: lightseagreen;
+    top: 2730px;
+    left: 890px;
+}
+
+.round::after{
+    content: "\25B7";
+    font-size: 55px;
+    position: absolute;
+    top:17px;
+    right: 23px;
+    color: white;
+
+}
+
+.container-9{
+    display: flex;
+    flex-direction: column;
+    background-color: lightseagreen;
+    font-family: "Century Gothic";
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 25px;
+
+
+}
+
+.text{
+    font-size: 15px;
+}
+.container-10{
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-11{
+
+    background-color:gainsboro;
+    font-family: "Century Gothic";
+    padding-top: 70px;
+    height: 700px;
+
+}
+
+.head-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    height: 40px;
+
+
+}
+.Name{
+    width: 300px ;
+    border: none;
+   margin-right: 10px;
+    font-family: "Century Gothic";
+    padding-left: 10px;
+}
+.Email{
+    width: 300px ;
+    border: none;
+    margin-right: 10px;
+    font-family: "Century Gothic";
+    padding-left: 10px;
+}
+
+
+.input-title{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    height: 40px;
+}
+
+
+.title{
+    width: 615px ;
+    border: none;
+    margin-right: 10px;
+    font-family: "Century Gothic";
+    padding-left: 10px;
+
+}
+
+.input-comment{
+    display: flex;
+    justify-content: center;
+
+    padding-top: 40px;
+    height: 200px;
+}
+
+
+.comment{
+    border: none;
+    padding-top: 20px;
+    padding-left: 10px;
+    width:615px;
+    height:200px;
+    resize: none;
+    font-family: "Century Gothic";
+
+}
+
+.send-button{
+    background-color: lightseagreen;
+    font-family: "Century Gothic";
+    width: 150px;
+    height: 50px;
+    border:lightseagreen;
+    position: absolute;
+    top: 4870px;
+    left: 850px;
+    color: white;
+    text-align: center;
+}
+
+.last-block{
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    font-family: "Century Gothic";
+
+}
+
+.h{
+    margin-bottom: 50px;
+}
+
+.a{
+    color: silver;
+}
+.list-footer{
+    list-style-type: none;
+
+}
